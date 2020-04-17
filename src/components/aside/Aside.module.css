@@ -1,0 +1,7 @@
+.aside{
+  height: 100%;
+  min-height: 100vh;
+}
+.aside__item{
+  color:#fff;
+}
