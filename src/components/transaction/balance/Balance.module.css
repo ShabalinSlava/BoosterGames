@@ -1,8 +1,22 @@
 .balance{
   display: flex;
   align-items: center;
+  background:#006D75;
+  padding: 20px 0px 20px 34px;
+}
+.balance__button{
+  background: #08979C;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-.ant-menu-item-selected{
-  background-color: red;
+.balance__title{
+  text-transform: uppercase;
+  color:#fff;
+  font-size: 40px;
+  margin: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  line-height: 43px;
 }

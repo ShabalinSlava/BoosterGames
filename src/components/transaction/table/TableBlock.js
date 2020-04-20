@@ -65,11 +65,65 @@ const data = [
     cash: 43.00,
     status: 'Done'
   },
+  {
+    key: '4',
+    id: '23818',
+    data: 'Apr 7, 2021 11:44',
+    info: 'Buy in Fortnite the unique item, Golden Pickaxe',
+    type: 'Buy',
+    cash: 2.25,
+    status: 'Done'
+  },
+  {
+    key: '5',
+    id: '23818',
+    data: 'Oct 26, 2020 09:51',
+    info: 'Buy in WOW BFA the unique item, Axe of ice King',
+    type: 'Buy',
+    cash: 65.00,
+    status: 'Cansel'
+  },
+  {
+    key: '6',
+    id: '23816',
+    data: 'Dec 27, 2019 14:46',
+    info: 'Buy in Fortnite the unique user, Happy 8 ball',
+    type: 'Buy',
+    cash: 43.00,
+    status: 'Done'
+  },
+  {
+    key: '7',
+    id: '23818',
+    data: 'Apr 7, 2021 11:44',
+    info: 'Buy in Fortnite the unique item, Golden Pickaxe',
+    type: 'Buy',
+    cash: 2.25,
+    status: 'Done'
+  },
+  {
+    key: '8',
+    id: '23818',
+    data: 'Oct 26, 2020 09:51',
+    info: 'Buy in WOW BFA the unique item, Axe of ice King',
+    type: 'Buy',
+    cash: 65.00,
+    status: 'Cansel'
+  },
+  {
+    key: '9',
+    id: '23816',
+    data: 'Dec 27, 2019 14:46',
+    info: 'Buy in Fortnite the unique user, Happy 8 ball',
+    type: 'Buy',
+    cash: 43.00,
+    status: 'Done'
+  },
 ];
 
 const TableBlock = (props) => {
   return (
-    <Table columns={columns} dataSource={data} />
+    <Table columns={columns} dataSource={data} pagination={false} bordered={true} />
   )
 }
 

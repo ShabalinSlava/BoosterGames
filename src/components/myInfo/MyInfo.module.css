@@ -1,0 +1,13 @@
+.info{
+  background: #006D75;
+  padding: 15px 0px;
+}
+.info__title{
+  font-size: 36px;
+  color:#fff;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: left;
+  margin: 0px 0px 0px 26px;
+}

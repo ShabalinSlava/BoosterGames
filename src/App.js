@@ -3,6 +3,7 @@ import 'antd/dist/antd.css'
 import './App.css';
 import Transaction from './components/transaction/Transaction';
 import Aside from './components/aside/Aside';
+import MyInfo from './components/myInfo/MyInfo';
 import { Row, Col,} from 'antd';
 
 const App = (props) => {
@@ -13,7 +14,12 @@ const App = (props) => {
           <Aside />
         </Col>
         <Col span={20}>
-          <Transaction state={props.state} />
+          <Transaction/>
+        </Col>
+      </Row>
+      <Row>
+        <Col xs={24}>
+          <MyInfo />
         </Col>
       </Row>
     </div>
